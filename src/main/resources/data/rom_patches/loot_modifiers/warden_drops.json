@@ -1,0 +1,12 @@
+{
+  "type": "rom_patches:warden_drops",
+  "conditions": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:warden"
+      }
+    }
+  ]
+}
